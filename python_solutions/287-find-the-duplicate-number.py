@@ -1,4 +1,5 @@
 # https://leetcode.com/problems/find-the-duplicate-number/
+# from collections import Counter
 
 class Solution:
     def findDuplicate(self, nums: List[int]) -> int:
@@ -12,3 +13,5 @@ class Solution:
                     finder = nums[finder]
                     slow = nums[slow]
                 return finder
+        # # method 2
+        # return Counter(nums).most_common()[0][0]
