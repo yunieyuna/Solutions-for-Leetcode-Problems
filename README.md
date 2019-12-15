@@ -10,8 +10,9 @@ Part of the solutions have multiple methods to crack the problems. All solutions
 
 ### Prerequisites
 
-```python
-python == 3.6
+```
+macOS=Mojave 10.14
+python=3.6.9
 ```
 
 ### Authors
